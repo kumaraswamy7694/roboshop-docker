@@ -1,6 +1,6 @@
 networks:
   roboshop:
-    driver: brige
+    driver: bridge
 services:
   mongodb:
     image: mongodb:v1
