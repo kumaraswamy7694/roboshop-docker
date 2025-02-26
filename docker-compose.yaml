@@ -33,7 +33,8 @@ services:
     networks:
       - roboshop
     depends_on:
-    - redis    
+    - redis 
+    - catalogue   
   web:
     image: web:v1
     container_name: web
