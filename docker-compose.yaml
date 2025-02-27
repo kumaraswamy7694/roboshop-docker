@@ -13,7 +13,7 @@ services:
     networks:
       - roboshop
     volumes:
-    - source: mongob
+    - source: mongodb
       target: /data/db
       type: volume
   catalogue:
