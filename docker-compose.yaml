@@ -42,7 +42,7 @@ services:
     - roboshop
   shipping:
     image: shipping:v1
-    container_name: mysql
+    container_name: shipping
     networks:
     - roboshop
   rabbitmq:
@@ -76,4 +76,3 @@ services:
       - cart
       - shipping
       - payment
-      
